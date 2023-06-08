@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+
+<body>
+    <div class="container" id="contain">
+        <div id="hour"></div>
+        <div id="minute"></div>
+        <div id="second"></div>
+    </div>
+    <div class="btn">
+    <button type="button" onclick="handtoggle()">Change Template</button>
+</div>
+    <script>
+        setInterval(() => {
+           const d = new Date();
+           const htime = d.getHours();
+           const mtime = d.getMinutes();
+           const stime = d.getSeconds();
+
+            hrotate = 30 * htime + mtime / 2;
+            mrotate = 6 * mtime;
+            srotate = 6 * stime;
+
+            hour.style.transform = `rotate(${hrotate}deg)`;
+            second.style.transform = `rotate(${srotate}deg)`;
+            minute.style.transform = `rotate(${mrotate}deg)`;
+
+        }, 1000);
+       function handtoggle() {
+        console.log("hello")
+       const element = document.getElementById("contain");
+       element.classList.toggle("container1");
+       
+       }
+    </script>
+</body>
+
+</html>
