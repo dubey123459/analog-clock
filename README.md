@@ -1,10 +1,10 @@
-Analog Watch
+# Analog Watch
 
-Hosted link:-https://dubey123459.github.io/analog-clock/
+**Hosted link:**-https://dubey123459.github.io/analog-clock/
 
 This is a simple analog watch built using HTML, CSS, and JavaScript. It displays the current time using hour, minute, and second hands on a traditional analog watch face.
 
-Getting Started
+**Getting Started**
 
 To get started with the analog watch, follow these steps:
 
@@ -15,13 +15,13 @@ To get started with the analog watch, follow these steps:
 
 Alternatively, you can copy the contents of the index.html, style.css, and script.js files into new files on your local development environment.
 
-Usage
+**Usage**
 
 Once the analog watch is running, it will automatically display the current time. The hour hand represents the current hour, the minute hand represents the current minute, and the second hand represents the current second.
 
 The watch face also includes hour markers and a digital time display at the center for added convenience.
 
-Customization
+**Customization**
 
 You can customize the analog watch by modifying the CSS code in the style.css file. Here are some possible modifications:
 
